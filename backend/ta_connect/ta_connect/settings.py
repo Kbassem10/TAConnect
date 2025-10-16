@@ -69,8 +69,6 @@ INSTALLED_APPS = [
     'corsheaders',
     'csp',
     'drf_yasg',
-    'accounts',
-    'finance_management',
 ]
 
 # REST Framework configuration
@@ -151,7 +149,7 @@ EMAIL_HOST_PASSWORD = config('MAIL_PASSWORD')
 
 WSGI_APPLICATION = 'ta_connect.wsgi.application'
 
-AUTH_USER_MODEL = 'accounts.User'
+# AUTH_USER_MODEL = 'accounts.User'
 
 # Database
 # https://docs.djangoproject.com/en/5.2/ref/settings/#databases

@@ -16,6 +16,9 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
+    security_opt:
+      - seccomp=unconfined
+      - label=disable
 
   backend:
     build:
@@ -43,6 +46,9 @@ services:
       - /app/node_modules
     depends_on:
       - backend
+    security_opt:
+      - seccomp=unconfined
+      - label=disable
 
 volumes:
   postgres_data:

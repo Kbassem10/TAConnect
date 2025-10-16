@@ -123,7 +123,7 @@ const Navbar = ({ onToggle }) => {
                     textShadow: '0 2px 8px rgba(124,58,237,0.12)'
                   }}
                 >
-                  Imhotep Finance
+                  TAConnect
                 </div>
               </div>
 
@@ -304,7 +304,7 @@ const Navbar = ({ onToggle }) => {
               </button>
               <div className="text-center">
                 <p className="text-gray-500 dark:text-gray-400 text-xs font-medium">
-                  📈 Imhotep Finance –  Manage your finances efficiently 📈
+                  TAConnect
                 </p>
               </div>
             </div>

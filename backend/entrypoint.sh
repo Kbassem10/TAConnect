@@ -30,8 +30,6 @@ print('Database schema reset')
 fi
 
 echo "Running database migrations..."
-python manage.py makemigrations accounts
-python manage.py makemigrations finance_management
 python manage.py makemigrations
 python manage.py migrate
 
