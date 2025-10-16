@@ -7,6 +7,25 @@ Simplify academic life with **TAConnect** — an open-source web platform that h
 
 Built with **Django** and **React**, TAConnect offers a smooth, conflict-free scheduling experience, powerful analytics, and a beautiful, modern UI — all while remaining secure and scalable through Docker and JWT authentication.
 
+## Table of Contents
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Technology Stack](#technology-stack)
+- [Quick Start](#quick-start)
+- [Manual Setup (Alternative)](#manual-setup-alternative)
+- [Environment Variables](#environment-variables)
+- [API Documentation (Swagger)](#api-documentation-swagger)
+- [Testing](#testing)
+- [Continuous Integration (CI)](#continuous-integration-ci)
+- [Contributing](#contributing)
+- [Development Workflow](#development-workflow)
+- [Project Team](#project-team)
+- [Future Roadmap](#future-roadmap)
+- [Folder Structure](#folder-structure)
+- [Code of Conduct](#code-of-conduct)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+
 ---
 
 ## 🗓️ Features
