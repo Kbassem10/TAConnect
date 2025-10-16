@@ -1,4 +1,4 @@
-# 🎓 TAConnect – Smart Office Hours & Scheduling Platform
+# 🎓 TAConnect – Smart Office Hours & Scheduling Platform (Demo - Under Development)
 
 [![Project Status: Active](https://img.shields.io/badge/Project%20Status-Active-green.svg)](https://github.com/TAConnect-Team/TAConnect)
 [![License](https://img.shields.io/badge/License-Dual-blue.svg)](LICENSE)
