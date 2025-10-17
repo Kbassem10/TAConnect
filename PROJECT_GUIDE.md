@@ -12,8 +12,6 @@
 git clone https://github.com/Kbassem10/TAConnect.git
 cd TAConnect
 docker compose up --build
-docker compose exec backend python manage.py migrate
-docker compose exec backend python manage.py createsuperuser
 ```
 
 Access Points:
