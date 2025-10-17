@@ -69,7 +69,9 @@ INSTALLED_APPS = [
     'corsheaders',
     'csp',
     'drf_yasg',
-]
+    'accounts',
+    'scheduler'
+    ]
 
 # REST Framework configuration
 REST_FRAMEWORK = {
