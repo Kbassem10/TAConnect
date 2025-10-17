@@ -1,7 +1,7 @@
 ﻿Deadline,Assigned To,Task Title,Task Description
-10-17-25,Backend Member 1,Initialize Django project and repo,"Setup Django REST Framework, Docker, PostgreSQL, and JWT authentication boilerplate."
-10-17-25,Frontend Member 1,Initialize React project and repo,"Create React app with Vite + Tailwind CSS, add routing, and configure Docker Compose."
-10-18-25,All Team,Setup GitHub and CI/CD base,"Add GitHub Actions, PR templates, branch protections, and base lint/test workflows."
+,,,
+,,,
+,,,
 10-19-25,Backend Member 1,Implement JWT Authentication,"Add user model (TA/Student), endpoints `/api/auth/register` & `/api/auth/login`, update Swagger schema_v0.1.yml."
 10-20-25,Frontend Member 1,Implement Login and Registration UI,"Build pages for user registration and login using MSW mocks, later connect to real backend API."
 10-24-25,Backend Member 1 and 2,Implement Course and Section models,"Endpoints `/api/courses/`, `/api/courses/{id}/sections/`, options for max_slots_per_student, restrict_to_section."
@@ -33,6 +33,7 @@
 12-08-25,Frontend Member 1,Add Calendar Sync UI (Optional),Add toggle to sync TA slots with Google Calendar via OAuth.
 12-15-25,All Team,Feedback Collection & Version 1.1 Planning,Collect user feedback and plan enhancements for next semester.
 12-25-25,All Team,Final Polished Stable Release,"Finalize all code, optimize Docker image sizes, cleanup docs, and mark version 1.1 stable."
+,,,
 ,,,
 ,,,
 
