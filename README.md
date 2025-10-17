@@ -1,6 +1,6 @@
 # 🎓 TAConnect – Smart Office Hours & Scheduling Platform (Demo - Under Development)
 
-[![Project Status: Active](https://img.shields.io/badge/Project%20Status-Active-green.svg)](https://github.com/TAConnect-Team/TAConnect)
+[![Project Status: Active](https://img.shields.io/badge/Project%20Status-Active-green.svg)](https://github.com/Kbassem10/TAConnect)
 [![License](https://img.shields.io/badge/License-Dual-blue.svg)](LICENSE)
 
 Simplify academic life with **TAConnect** — an open-source web platform that helps **Teaching Assistants (TAs)** and **students** manage **office hours**, **bookings**, and **feedback** with ease.  
@@ -94,7 +94,7 @@ Built with **Django** and **React**, TAConnect offers a smooth, conflict-free sc
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/TAConnect-Team/TAConnect.git
+git clone https://github.com/Kbassem10/TAConnect.git
 cd TAConnect
 
 # 2. Build and launch with Docker
@@ -283,7 +283,8 @@ TAConnect/
 │
 ├── backend/
 │   ├── ta_connect/             # Django project root
-│   ├── apps/                   # users, scheduling, feedback, etc.
+│   ├── accounts/
+|   ├── scheduler/
 │   ├── requirements.txt
 │   ├── manage.py
 │   └── Dockerfile
