@@ -1,0 +1,37 @@
+Deadline,Assigned To,Task Title,Task Description
+2025-10-17,Backend Member 1,Initialize Django project and repo,"Setup Django REST Framework, Docker, PostgreSQL, and JWT authentication boilerplate."
+2025-10-17,Frontend Member 1,Initialize React project and repo,"Create React app with Vite + Tailwind CSS, add routing, and configure Docker Compose."
+2025-10-18,All Team,Setup GitHub and CI/CD base,"Add GitHub Actions, PR templates, branch protections, and base lint/test workflows."
+2025-10-19,Backend Member 1,Implement JWT Authentication,"Add user model (TA/Student), endpoints `/api/auth/register` & `/api/auth/login`, update Swagger schema_v0.1.yml."
+2025-10-20,Frontend Member 1,Implement Login and Registration UI,"Build pages for user registration and login using MSW mocks, later connect to real backend API."
+2025-10-21,Backend Member 2,Implement Course and Section models,"Endpoints `/api/courses/`, `/api/courses/{id}/sections/`, options for max_slots_per_student, restrict_to_section."
+2025-10-22,Frontend Member 2,Build Course and Section UI,"Create form-based UI for TAs to create/manage courses and sections, mock until backend merged."
+2025-10-23,Backend Member 1,Add Slot creation and recurrence logic,Add `/api/sections/{id}/slots/` endpoint for recurring slots with buffer logic and conflict prevention.
+2025-10-24,Frontend Member 1,Create Slot Creation UI,Use FullCalendar to display generated slots and allow recurring setup by TA.
+2025-10-25,Backend Member 2,Add Shareable Link Endpoint,Create `/api/schedule/{uuid}/` to show section availability and handle student access control.
+2025-10-26,Frontend Member 2,Implement Student Booking Calendar,"Add public calendar view for students using link, with available slot selection UI."
+2025-10-27,Backend Member 1,Implement Booking Logic and Email Notifications,"Add `/api/slots/{slot_id}/book/`, enforce max slots per student, send email confirmations via Mailhog."
+2025-10-28,Frontend Member 1,Add Booking Flow UI,"Create booking confirmation dialogs and success/failure screens, integrated with backend."
+2025-10-29,Backend Member 2,Implement CSV Upload Endpoint,"Add `/api/sections/{id}/upload_students/`, support CSV or Excel, parse emails, and store allowed students."
+2025-10-30,Frontend Member 2,Add CSV Upload UI,"Create upload form with preview summary (valid, duplicate, invalid emails)."
+2025-11-01,Backend Member 1,Implement Feedback Model and Endpoint,Add `/api/bookings/{id}/feedback/` endpoint for student feedback on session quality.
+2025-11-02,Frontend Member 1,Add Feedback Submission UI,Students can leave feedback (rating/comments) after session completion.
+2025-11-03,Backend Member 2,Add Analytics and Stats Endpoints,"Implement `/api/analytics/section/{id}/` for attendance, rating, and booking trends."
+2025-11-04,Frontend Member 2,Build TA Analytics Dashboard,"Charts (Recharts) for bookings, feedback averages, and student activity over time."
+2025-11-06,All Team,Prepare MVP Demo,"Seed database with sample data, polish UI/UX, verify booking flows, and record demo video."
+2025-11-10,Backend Member 1,Enhance Security & Validation,"Add stricter input validation, secure file uploads, JWT refresh tokens, and email domain verification."
+2025-11-11,Frontend Member 1,UI Polish and Error Handling,"Add toasts, loading states, better validation messages, and mobile responsiveness."
+2025-11-12,All Team,Cross-Browser & Device Testing,"Test app across browsers and mobile devices, fix UI inconsistencies."
+2025-11-15,Backend Member 2,Optimize Database and Queries,"Add indexes, pagination, and caching to endpoints to improve API performance."
+2025-11-16,Frontend Member 2,Implement Lazy Loading and Optimizations,"Use React Query caching, code splitting, and prefetching for performance."
+2025-11-20,All Team,Setup Production Deployment,"Configure production Docker Compose, add environment variables, and deploy to Render/Heroku/DigitalOcean."
+2025-11-22,Backend Member 1,Setup HTTPS & Logging,"Configure SSL (via Nginx/Certbot), enable Django logging and error monitoring (Sentry optional)."
+2025-11-24,Frontend Member 1,Setup CI/CD for Frontend,Configure GitHub Actions to build and deploy frontend automatically on push to main.
+2025-11-25,All Team,Write Developer and API Documentation,"Document endpoints, setup guide, and architecture diagrams. Include Swagger link and testing instructions."
+2025-11-27,All Team,Write User Documentation,Create TA and Student user guides with screenshots and feature overview.
+2025-11-30,All Team,Final QA and Release Candidate,"Run full system test, finalize release branch, prepare version tag (v1.0.0)."
+2025-12-02,All Team,Public Launch,Deploy stable version to production. Publish release notes and share demo video.
+2025-12-05,Backend Member 1,Implement Google Calendar Integration (Optional),Allow TAs to sync their office hours automatically with Google Calendar.
+2025-12-08,Frontend Member 1,Add Calendar Sync UI (Optional),Add toggle to sync TA slots with Google Calendar via OAuth.
+2025-12-15,All Team,Feedback Collection & Version 1.1 Planning,Collect user feedback and plan enhancements for next semester.
+2025-12-25,All Team,Final Polished Stable Release,"Finalize all code, optimize Docker image sizes, cleanup docs, and mark version 1.1 stable."
