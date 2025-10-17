@@ -17,7 +17,7 @@ docker compose up --build
 Access Points:
 - Frontend → http://localhost:3000
 - Backend API → http://localhost:8000
-- Swagger Docs → http://localhost:8000/docs/
+- Swagger Docs → http://localhost:8000/swagger/
 - Django Admin → http://localhost:8000/admin/
 
 ---
@@ -47,8 +47,8 @@ npm run dev
 
 TAConnect automatically generates Swagger/OpenAPI docs for every backend endpoint.
 
-- Interactive Docs: http://localhost:8000/docs/
-- Raw Schema: http://localhost:8000/schema.yml
+- Interactive Docs: http://localhost:8000/swagger
+- Raw Schema: http://localhost:8000/swagger.json
 
 ### JWT Authorization in Swagger
 1) Click “Authorize” in Swagger UI.
